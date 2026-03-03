@@ -10,7 +10,7 @@ const THEME = {
   accent2: '#EE8374',         // Naranja/Salmón
   
   bgLight: '#FDFCF8',         // Fondo crema pálido (modo claro)
-  bgDark: '#445367',          // Fondo azul oscuro (modo oscuro)
+  bgDark: '#435061',          // Fondo azul oscuro (modo oscuro)
   
   cardLight: '#ffffff',       // Fondo de tarjetas u objetos sobre el fondo (modo claro)
   cardDark: '#323D4D',        // Fondo de tarjetas u objetos (modo oscuro)
@@ -99,7 +99,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        
+          
         {/* Menú Mobile */}
         {isMobileMenuOpen && (
           <div className="md:hidden border-t border-(--c-border) bg-(--c-bg) px-4 pt-2 pb-6 space-y-2 shadow-lg absolute w-full z-40">
@@ -112,6 +112,18 @@ const LandingPage = () => {
 
       {/* Hero Section - Clean & Warm */}
       <section className="relative pt-36 pb-24 lg:pt-48 lg:pb-32 overflow-hidden">
+        
+        {/* Subtle Grid Background */}
+        <div 
+          className="absolute inset-0 pointer-events-none z-0 opacity-40 md:opacity-60" 
+          style={{
+            backgroundImage: 'linear-gradient(to right, var(--c-border) 1px, transparent 1px), linear-gradient(to bottom, var(--c-border) 1px, transparent 1px)',
+            backgroundSize: '4rem 4rem',
+            WebkitMaskImage: 'radial-gradient(ellipse 80% 60% at 50% 20%, #000 40%, transparent 100%)',
+            maskImage: 'radial-gradient(ellipse 80% 60% at 50% 20%, #000 40%, transparent 100%)'
+          }}
+        ></div>
+
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-black tracking-tight text-(--c-text-main) mb-8 leading-[1.05]">
             Tu mostrador, <br />
@@ -456,8 +468,19 @@ const LandingPage = () => {
       </section>
 
       {/* Pricing Section */}
-      <section id="precios" className="py-24 bg-(--c-bg)">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="precios" className="relative py-24 bg-(--c-bg) overflow-hidden">
+        {/* Subtle Grid Background */}
+        <div 
+          className="absolute inset-0 pointer-events-none z-0 opacity-40 md:opacity-60" 
+          style={{
+            backgroundImage: 'linear-gradient(to right, var(--c-border) 1px, transparent 1px), linear-gradient(to bottom, var(--c-border) 1px, transparent 1px)',
+            backgroundSize: '4rem 4rem',
+            WebkitMaskImage: 'radial-gradient(ellipse 80% 60% at 50% 20%, #000 40%, transparent 100%)',
+            maskImage: 'radial-gradient(ellipse 80% 60% at 50% 20%, #000 40%, transparent 100%)'
+          }}
+        ></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-(--c-accent1) font-bold tracking-widest uppercase text-sm mb-4">Planes Claros</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-(--c-text-main)">Elegí el plan ideal para vos</h3>
