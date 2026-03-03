@@ -16,8 +16,8 @@ export const Navbar = ({ isDarkMode, setIsDarkMode, isMobileMenuOpen, setIsMobil
             <div className="w-10 h-10 bg-linear-to-br from-(--c-accent1) to-(--c-accent2) rounded-xl flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
               <ShoppingBasket size={22} strokeWidth={2.5} />
             </div>
-            <span className="font-titulo text-2xl font-black tracking-tight text-(--c-text-main)">
-              NexPOS
+            <span className="font-titulo text-2xl font-medium tracking-tight text-(--c-text-main)">
+              Mango
             </span>
           </div>
           <div className="hidden md:flex items-center gap-10">

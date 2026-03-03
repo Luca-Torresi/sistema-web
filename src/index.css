@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+  --font-titulo: "Mochiy Pop One", "DynaPuff", sans-serif;
+}

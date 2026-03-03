@@ -10,7 +10,7 @@ export const DownloadApp = () => {
               <MonitorSmartphone size={14} className="text-(--c-accent1)" /> Desktop App
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-(--c-text-main) tracking-tight">
-              Llevá NexPOS a <br/>tu computadora
+              Llevá Mango a <br/>tu computadora
             </h2>
             <p className="text-lg text-(--c-text-muted) font-light leading-relaxed max-w-xl">
               Descargá nuestra aplicación nativa para Windows y disfrutá de una experiencia aún más fluida y rápida en tu mostrador, con atajos de teclado y funcionamiento optimizado.

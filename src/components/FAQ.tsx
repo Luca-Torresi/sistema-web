@@ -13,7 +13,7 @@ export const FAQ = () => {
           {[
             {
               q: "¿Necesito estar conectado a internet para vender?",
-              a: "NexPOS requiere una conexión periódica para sincronizar tus ventas con la nube, pero te permite seguir facturando en modo offline si se cae internet transitoriamente. Los tickets se encolan y se autorizan al volver la conexión."
+              a: "Mango requiere una conexión periódica para sincronizar tus ventas con la nube, pero te permite seguir facturando en modo offline si se cae internet transitoriamente. Los tickets se encolan y se autorizan al volver la conexión."
             },
             {
               q: "¿Qué pasa con mis datos y mi configuración anterior?",
@@ -21,7 +21,7 @@ export const FAQ = () => {
             },
             {
               q: "¿Sirve la tickeadora o lector que ya tengo?",
-              a: "¡Sí! NexPOS es compatible con el 99% del hardware USB y Bluetooth del mercado, como tickeadoras térmicas y lectores de barras estándar. Conectás, configurás el puerto y salís funcionando."
+              a: "¡Sí! Mango es compatible con el 99% del hardware USB y Bluetooth del mercado, como tickeadoras térmicas y lectores de barras estándar. Conectás, configurás el puerto y salís funcionando."
             },
             {
               q: "¿Tienen algún límite de permanencia o contrato?",

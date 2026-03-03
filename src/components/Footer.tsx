@@ -11,7 +11,7 @@ export const Footer = () => {
                 <ShoppingBasket size={18} strokeWidth={2.5} />
               </div>
               <span className="font-titulo text-xl font-bold text-(--c-text-main)">
-                NexPOS
+                Mango
               </span>
             </div>
             <p className="text-(--c-text-muted) max-w-sm font-light leading-relaxed">
@@ -39,7 +39,7 @@ export const Footer = () => {
         </div>
         
         <div className="flex flex-col md:flex-row items-center justify-between text-(--c-text-muted) text-sm gap-4 pt-8 border-t border-(--c-border)">
-          <p>© {new Date().getFullYear()} NexPOS Software. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Mango Software. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-(--c-text-main) transition-colors">Términos</a>
             <a href="#" className="hover:text-(--c-text-main) transition-colors">Privacidad</a>

@@ -6,7 +6,7 @@ export const Comparison = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-(--c-accent2) font-bold tracking-widest uppercase text-sm mb-4">Por qué elegirnos</h2>
-          <h3 className="text-4xl md:text-5xl font-extrabold text-(--c-text-main)">NexPOS vs Sistemas Tradicionales</h3>
+          <h3 className="text-4xl md:text-5xl font-extrabold text-(--c-text-main)">Mango vs Sistemas Tradicionales</h3>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 md:gap-0 bg-(--c-card) rounded-3xl border border-(--c-border) overflow-hidden shadow-lg">
@@ -29,11 +29,11 @@ export const Comparison = () => {
             </ul>
           </div>
           
-          {/* NexPOS */}
+          {/* Mango */}
           <div className="p-8 md:p-12 relative overflow-hidden bg-white/5">
             <div className="absolute inset-0 bg-linear-to-br from-(--c-accent1)/5 to-(--c-accent2)/10 pointer-events-none"></div>
             <h4 className="text-2xl font-bold text-(--c-text-main) mb-8 text-center flex items-center justify-center gap-2">
-              Con NexPOS <Zap className="text-(--c-accent1)" size={20} />
+              Con Mango <Zap className="text-(--c-accent1)" size={20} />
             </h4>
             <ul className="space-y-6 relative z-10">
               {[

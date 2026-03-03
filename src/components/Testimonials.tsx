@@ -12,7 +12,7 @@ export const Testimonials = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              text: "Antes tardaba 1 hora al cierre de caja buscando diferencias. Ahora con NexPOS apreto un botón y me voy a casa tranquilo. Una locura.",
+              text: "Antes tardaba 1 hora al cierre de caja buscando diferencias. Ahora con Mango apreto un botón y me voy a casa tranquilo. Una locura.",
               author: "Martín G.",
               role: "Dueño de Kiosco 24hs",
             },
